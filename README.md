@@ -3,6 +3,7 @@ My notes and codes about most common Data Strucutures from the book Learn JS wit
 
 # Content
 
-1. Brief introduction to Interfaces and Arrays.
-2. Stack Data Structure.
-3. Queue and Deque Data Structure with examples.
+0. Brief introduction to Interfaces and Arrays.
+1. Stack Data Structure.
+2. Queue and Deque Data Structure.
+3. Linked Lists Data Structure.
