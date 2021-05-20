@@ -1,4 +1,4 @@
-# Linked Lists
+# **Linked Lists**
 
 **Linked Lists** is a Dynamic Data Structure we can add or remove elements from it at wiil and it will grow as required.
 Arrays are list too, but more simple it stores a sequence data. **Array** is the most convenient way to manipulate data,
