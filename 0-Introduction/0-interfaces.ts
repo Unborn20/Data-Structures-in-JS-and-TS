@@ -7,9 +7,9 @@ function printName(person: Person){
 	console.log(person.name, person.age);
 }
 
-const sergio = {name: 'Sergio', age: 20};
+const person = {name: 'Sergio', age: 20};
 
-printName(sergio);
+printName(person);
 
 interface Sum<T>{
     compareTo(b: T): number
