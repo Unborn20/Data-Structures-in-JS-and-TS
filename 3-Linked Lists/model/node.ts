@@ -1,10 +1,10 @@
-export default class Node{
+export default class Node<T>{
 
-    element : any;
+    element : T;
     next : any;
     
-    constructor(element:any){
+    constructor(element:T){
         this.element = element;
-        this.next = undefined;
-    }    
+        this.next = null;
+    }
 }

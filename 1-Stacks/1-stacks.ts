@@ -1,7 +1,7 @@
 // ADT Stack implemented in TS
-class Stack{
+class Stack<T>{
 
-	private stack: Array<any>;
+	private stack: Array<T>;
 
 	public constructor(){
 		this.stack = [];
@@ -39,7 +39,7 @@ class Stack{
 
 }
 
-const stack: Stack = new Stack();
+const stack: Stack<number> = new Stack<number>();
 
 //Push
 stack.push(3);

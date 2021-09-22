@@ -1,4 +1,4 @@
-class Queue{
+class Queue<T>{
 
 	private count: number;
 	private	lowestCount: number;
@@ -60,7 +60,7 @@ class Queue{
 }
 
 /** Testing Queue Data Structure */
-const queue: Queue = new Queue();
+const queue: Queue<string> = new Queue<string>();
 queue.enqueue('Person 1');
 queue.enqueue('Person 2');
 queue.enqueue('Person 3');
@@ -75,7 +75,7 @@ console.log(queue.dequeue());
 
 /** Playing Hot Potato*/
 function hotPotato(elementList: Array<string>, num: number){
-	const queue: Queue = new Queue();
+	const queue: Queue<string> = new Queue<string>();
 	const eliminatedList = [];
 
 	for (let i: number = 0; i < elementList.length; i++){

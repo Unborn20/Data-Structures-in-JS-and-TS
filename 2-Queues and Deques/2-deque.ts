@@ -1,4 +1,4 @@
-class Deque{
+class Deque<T>{
 
 	private count: number;
 	private lowestCount: number;
@@ -90,7 +90,7 @@ class Deque{
 }
 
 /**Testing Deque Data Structure*/
-const deque: Deque = new Deque();
+const deque: Deque<number> = new Deque<number>();
 
 console.log(deque.isEmpty());
 deque.addBack(1);
@@ -106,7 +106,7 @@ console.log(deque.isEmpty());
 
 /**Palindrome checker*/
 function palindromeChecker(word: string){
-	const deque: Deque = new Deque();
+	const deque: Deque<number> = new Deque<number>();
 	let aux: string[] = word.toLowerCase().split('');
 	aux = aux.filter(a => {
 		if (/[A-Za-z]/.test(a)){

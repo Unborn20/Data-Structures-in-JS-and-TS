@@ -1,4 +1,4 @@
-class StackObjectBased{
+class StackObjectBased<T>{
 	
 	private count: number;
 	private stack: any;
@@ -8,7 +8,7 @@ class StackObjectBased{
 		this.stack = {}
 	}
 
-	public push(element: any){
+	public push(element: T){
 		this.stack[this.count] = element;
 		this.count++;
 	}
@@ -48,8 +48,8 @@ class StackObjectBased{
 				return	'';
 		}
 		let	objString: string	=	`${this.stack[0]}`;
-		for	(let	i	=	1;	i	<	this.count;	i++)	{	
-				objString	=	`${objString},${this.stack[i]}`;
+		for	(let i:number =	1; i < this.count; i++)	{	
+				objString = `${objString},${this.stack[i]}`;
 		}
 		return	objString;
 	}
@@ -57,10 +57,10 @@ class StackObjectBased{
 }
 
 function decimalToBinary(decNumber: number){
-	const stack: StackObjectBased = new StackObjectBased();
-	let number = decNumber;
+	const stack: StackObjectBased<number> = new StackObjectBased<number>();
+	let number: number = decNumber;
 	let rem: number;
-	let binaryString = '';
+	let binaryString: string = '';
 
 	while(number > 0){
 		rem = Math.floor(number % 2);

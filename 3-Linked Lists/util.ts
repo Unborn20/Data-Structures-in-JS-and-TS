@@ -4,6 +4,6 @@
  * @param b 
  * @returns true 
  */
-export function defaultEquals(a,b){
+export function defaultEquals(a: any,b: any){
     return a===b;
 }

@@ -1,8 +1,8 @@
 # **Linked Lists**
 
 **Linked Lists** is a Dynamic Data Structure we can add or remove elements from it will and it at will grow as required.
-Arrays are list too, but more simple it stores a sequence data. **Array** is the most convenient way to manipulate data,
-because it is in any language, but have a problem and it is that the size is fixed (not just in JS also in other languages) 
+Arrays are list too, but is a way more simple it stores a sequence data. **Array** is the most convenient way to manipulate data,
+because it is in any language, but have a problem and it is that the size is fixed (not just in JS in other languages too) 
 and add or remove items in the beginnig or middle of the array is expensive, because we need shifted over all the elements.
 
 **Linked Lists** also stores sequencial data, but unlike **Arrays** it don't placed contiguously in memory, each element 
