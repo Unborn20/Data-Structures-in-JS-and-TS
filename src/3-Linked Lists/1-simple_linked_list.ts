@@ -1,5 +1,5 @@
-import {defaultEquals} from './util.ts';
-import Node from './model/node.ts';
+import {defaultEquals} from './util';
+import Node from './model/node';
 
 export default class LinkedList<T> {
     

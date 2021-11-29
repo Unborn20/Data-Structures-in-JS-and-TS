@@ -1,0 +1,22 @@
+{
+  "name": "data-structures-in-js-and-ts",
+  "version": "1.0.0",
+  "description": "Notes about Data-Structures",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Unborn20/Data-Structures-in-JS-and-TS.git"
+  },
+  "author": "Zergio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Unborn20/Data-Structures-in-JS-and-TS/issues"
+  },
+  "homepage": "https://github.com/Unborn20/Data-Structures-in-JS-and-TS#readme",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  }
+}
